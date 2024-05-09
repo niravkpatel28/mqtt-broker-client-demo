@@ -19,13 +19,13 @@ To run the MQTT demo, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/niravkpatel28/mqtt-brokerc-client-demo.git
+   git clone https://github.com/niravkpatel28/mqtt-broker-client-demo.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd mqtt-brokerc-client-demo
+   cd mqtt-broker-client-demo
    ```
 
 3. Install dependencies using npm:
