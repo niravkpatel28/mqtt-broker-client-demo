@@ -11,7 +11,7 @@ publisher.on("connect", function () {
   console.log("Publisher connected to MQTT broker");
 
   // Publish a message to a topic
-  const topic = "test/helloworld";
+  const topic = "test/topic";
   // const message = "Hello, MQTT from Publisher!";
   const message = { name: "Nirav", focus: "MQTT" };
   // publisher.publish(topic, message);
