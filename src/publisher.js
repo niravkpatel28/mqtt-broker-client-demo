@@ -13,7 +13,7 @@ publisher.on("connect", function () {
   // Publish a message to a topic
   const topic = "test/topic";
   // const message = "Hello, MQTT from Publisher!";
-  const message = { name: "Nirav", focus: "MQTT" };
+  const message = { name: "Nirav", focus: "MQTT", title: "MQTT workshop" };
   // publisher.publish(topic, message);
   publisher.publish(topic, JSON.stringify(message));
 
